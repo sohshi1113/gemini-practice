@@ -20,7 +20,7 @@ try {
         // モデル一覧
         // https://aistudio.google.com/docs/models
         const response = await ai.models.generateContent({
-            model: 'gemini-2.5-flash-lite',
+            model: 'gemini-3-flash-preview',
             contents: prompt,
         });
 
